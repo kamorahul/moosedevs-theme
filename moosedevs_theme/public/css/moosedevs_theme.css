@@ -1,0 +1,38 @@
+:root {
+	--primary: #F2A33C;
+	--primary-color: #F2A33C;
+	--fg-color: #14181F;
+	--bg-color: #F5F3ED;
+	--navbar-bg: #0A0E14;
+}
+
+.navbar,
+.web-footer,
+header.navbar {
+	background-color: #0A0E14 !important;
+}
+
+.btn-primary,
+.page-head .primary-action,
+.standard-sidebar-item.selected {
+	background-color: #F2A33C !important;
+	border-color: #F2A33C !important;
+	color: #0A0E14 !important;
+}
+
+a {
+	color: #F2A33C;
+}
+
+body {
+	background-color: #F5F3ED;
+	color: #14181F;
+}
+
+/* Frappe/ERPNext "powered by" attribution — selector list covers known versions; verify against the live instance and add any missed one. */
+.web-footer .text-muted a[href*="frappe.io"],
+.web-footer .powered-by,
+#footer-powered-by,
+.frappe-powered-by {
+	display: none !important;
+}
